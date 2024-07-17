@@ -1,0 +1,65 @@
+@media (max-width: 768px) { 
+    .h_primary{
+        margin: -60px 0px -20px;
+        line-height: 30px;
+    }
+    .logo_atribut li{
+        display: none;
+    }
+    
+    .manue_button{
+        display:block;
+    
+    }
+    .logo_website img{
+        max-height: 50px;   
+    }
+    .all_services_holder{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .heading h1{
+        color: black;
+        font-size: 30px;
+        margin-bottom: -40px;
+    }
+    .all_services_holder img{
+        max-width: 240px;
+        max-height: 200px;
+    }
+    #client{
+        background-image: url('../imges/mg3.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .client_logo_contaner{
+        flex-wrap: wrap;
+    }
+    .logo2 img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .contect_page_c{
+        background-image: url('../imges/img1.jpg');
+        opacity: 0.9;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .input_order input{
+        width: 250px;
+        background: none;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    ::placeholder{
+        color: rgb(0, 0, 0);
+    }
+    .contact_heading h1{
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+}

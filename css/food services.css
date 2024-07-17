@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#nave_start {
+    position: relative;
+}
+
+#nave_start::before {
+    content: "";
+    background-color: rgb(65, 62, 62);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.nave_start_contaner {
+    padding: 2px 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo_website img {
+    border-radius: 200px;
+    height: 60px;
+    width: 60px;
+}
+
+.logo_atribut {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo_atribut li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.logo_atribut li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+
+#nave_start li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+
+/* home section  start */
+#home_page {
+    background-image: url('../imges/img3.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.home1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.h_primary {
+    padding: 140px 0px 46px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.home1,
+p {
+    font-size: 18px;
+    color: white;
+    line-height: 20px;
+    padding: 9px;
+}
+.trusted{
+    padding: 40px 0px;
+}
+.Bleave span{
+color: rgb(218, 47, 47);
+}
+
+.but1 {
+    padding: 60px 0px;
+}
+
+.but1 button {
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px;
+}
+
+/* home section end */
+
+
+
+
+
+
+/* services section start */
+#services {
+    background-image: url('../imges/mg8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 10px 10px;
+}
+.all_services_holder{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    padding: 80px 0px 50px 0px;
+}
+.services1 img{
+    width: 400px;
+    height: 287px;
+    border-radius: 40px;
+}
+.services2 img{
+    width: 400px;
+    border-radius: 40px;
+}
+.select_service_contaner{
+    text-align:center;
+    padding: 20px 0px;
+}
+.select_favourit_service{
+    font-size: 25px;
+    color: whitesmoke;
+    line-height: 40px;
+}
+.select_service_contaner button{
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px;
+}
+.services_distance{
+    font-size: 25px;
+    padding: 10px;
+    color: whitesmoke;
+}
+/* services section end */
+/* clint detale start */
+/* #client::before{
+    content: "";
+    position: absolute;
+    background: url('../imges/b3.jpg');
+    width: 100%;
+    height: 45%;
+    opacity: 0.2;
+    z-index: -1;
+} */
+.Clients_HEADING{
+    text-align: center;
+    font-size: 34px;   
+    padding: 20px 0px;
+}
+.client_logo_contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0px 0px;
+}
+.logo2 img{
+    
+    height: 130px;
+    border-radius: 20px;
+
+}
+/* clint detale end */
+/* contect us start */
+.contact_heading h1{
+    text-align: center;
+    font-size: 28px;
+    padding: 40px;
+}
+.contect_page_contanar{
+    text-align: center;
+}
+.input_order{
+    padding: 10px 0px;
+}
+.input_order input{
+    border: 1px solid;
+    padding: 20px 0px;
+}
+/* contect us end */
+.logo_atribut1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.048);
+    box-shadow: -10 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    display: none;
+    backdrop-filter:blur(10px);
+}
+.logo_atribut1 li{
+    list-style: none;
+    text-align: center;
+    padding: 20px 10px;
+    width: 100%;
+    
+}
+.logo_atribut1 li a{
+    text-decoration: none;
+    color: black;
+}
+.logo_atribut1 li:hover{
+    background: #f0f0ff; 
+}
+.manue_button{
+    width: 30px;
+    display: none;
+}

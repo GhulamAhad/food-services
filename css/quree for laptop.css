@@ -1,0 +1,54 @@
+@media (min-width:769px) and (max-width:1024px){
+ .h_primary{
+       font-size: 40px;
+       font-style: italic;
+       margin-top: -9px;
+       line-height: 30px;
+    }
+    .home1 p{
+        font-size: 25px;
+    }
+    .home1 p span{
+        color: black;
+        font-size: 28px;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    .all_services_holder{
+        flex-wrap: wrap;
+    }
+    .client_logo_contaner{
+        flex-wrap: wrap;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+    }
+#client{
+    background-image: url('../imges/mg4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    .contect_page_c{
+        background-image: url('../imges/img1.jpg');
+        opacity: 0.9;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .input_order input{
+        width: 650px;
+        background: none;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    ::placeholder{
+        color: rgb(0, 0, 0);
+    }
+    .contact_heading h1{
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+}

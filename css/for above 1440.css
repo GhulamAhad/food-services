@@ -1,0 +1,110 @@
+@media (min-width:1441px){
+    .h_primary{
+        font-size: 60px;
+        font-style: italic;
+     }
+     .home1 p{
+        padding-top: 50px;
+         font-size: 30px;
+     }
+     .home1 p span{
+         color: rgb(19, 16, 14);
+         font-size: 38px;
+         font-weight: bolder;
+         font-style: italic;
+     }
+     .trusted{
+        font-size: 45px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+     }
+     .Bleave{
+        font-size: 45px;
+        padding-top: 40px;
+     }
+     .but1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+     .but1 button{
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 20px;
+     }
+     .all_services_holder{
+         flex-wrap: wrap;
+         gap: 90px;
+     }
+     .services1 img{
+        width: 500px;
+        height: 500px;
+     }
+     .services2 img{
+        width: 600px;
+        height: 500px;
+     }
+     .heading h1{
+        color: black;
+        font-size: 70px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+     }
+     .select_favourit_service{
+        font-size: 55px;
+        padding-bottom: 30px;
+        color: black;
+     }
+     .select_service_contaner button{
+        font-size: 30px;
+     }
+     .services_distance{
+        font-size: 55px;
+        color: black;
+     }
+     .client_logo_contaner{
+         flex-wrap: wrap;
+         /* padding-left: 40px;
+         padding-right: 40px;
+         padding-bottom: 40px; */
+     }
+ #client{
+     background-image: url('../imges/mg4.jpg');
+     background-repeat: no-repeat;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+     }
+     .Clients_HEADING{
+        font-size: 60px;
+        padding-bottom: 60px;
+     }
+     .logo2 img{
+        width: 300px;
+        height: 250px;
+        padding-bottom: 60px;
+     }
+     .contect_page_c{
+         background-image: url('../imges/img1.jpg');
+         opacity: 0.9;
+         background-repeat: no-repeat;
+         background-position: center;
+         background-attachment: fixed;
+         background-size: cover;
+     }
+     .input_order input{
+         width: 750px;
+         background: none;
+         border-radius: 20px;
+         font-size: 20px;
+         font-weight: bolder;
+     }
+     ::placeholder{
+         color: rgb(102, 74, 14);
+     }
+     .contact_heading h1{
+         font-size: 50px;
+         padding-bottom: 60px;
+     }
+}
